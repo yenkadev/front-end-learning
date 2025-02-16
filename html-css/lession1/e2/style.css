@@ -1,0 +1,32 @@
+.heading {
+    text-align: center;
+    background-color: rgb(190, 24, 24);
+    color: white;
+}
+
+.line {
+    height: 3px;
+    background-color: black;
+}
+
+.coffee-area .content {
+    color: rgb(190, 24, 24);
+}
+
+.coffee-img, .tea-img {
+    width: 1333px;
+    object-fit: cover;
+}
+
+.tea-area .content {
+    text-align: right;
+    color: blue
+}
+
+.coffee-area .title, .tea-area .title {
+    text-align: center;
+}
+
+.coffee-area .content, .tea-area .content {
+    margin: 0;
+}
