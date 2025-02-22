@@ -1,0 +1,16 @@
+.btn-more a {
+    padding: 4px 25px;
+    background-color: rgb(158, 234, 44);
+    width: 94px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-inline: auto;
+    cursor: pointer;
+}
+
+.btn-more:hover > a {
+    background-color: rgb(172, 255, 48);
+    color: black;
+}
+

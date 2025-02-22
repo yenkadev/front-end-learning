@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 1349px;
+    margin-inline: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 35px ;
+    padding-top: 20px;
+    height: 30px;
+}
+
+.left-content .sub-logo-name, .left-content .logo-name {
+    text-transform: uppercase;
+}
+
+.left-content .sub-logo-name {
+    color: rgb(95, 219, 95);
+}
+
+.left-content .logo-name {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.right-content {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.right-content .phone-contact, 
+.right-content .email-contact {
+    display: flex;
+    gap: 5px;
+}
+
+.phone-contact .phone-img,
+.email-contact .email-img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}

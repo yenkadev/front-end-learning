@@ -1,0 +1,36 @@
+.call-to-action {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/assets/images/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.call-to-action .title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    word-spacing: 12px;
+}
+
+.call-to-action .content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content .subscribe {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe .input-subscribe {
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: white;
+    border: none;
+}

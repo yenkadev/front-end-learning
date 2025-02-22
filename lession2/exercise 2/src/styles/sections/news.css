@@ -1,0 +1,33 @@
+.news {
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-inline: 50px;
+}
+.news .utility {
+    display: flex;
+    gap: 50px;
+}
+
+.news .content {
+    gap: 35px;
+}
+
+.news .content .title {
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 340px;
+}
+
+.utility .author, 
+.utility .date {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.author .avatar-img,
+.date .calendar-img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}

@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-inline: 45px;
+    padding-bottom: 8px;
+}
+
+.menu-list {
+    width: 430px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-item:hover > a {
+    color: rgb(230, 26, 26);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.google-plus-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.linkedin-img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.twitter-img {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+
+.facebook-img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
