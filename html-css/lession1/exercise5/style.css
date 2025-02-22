@@ -1,8 +1,8 @@
-.tb {
+.table {
     width: 100%;
 }
 
-.tb, .tb th, .tb td {
+.table, .table th, .table td {
     height: 70.5px;
     border: 1px solid black;
 }
