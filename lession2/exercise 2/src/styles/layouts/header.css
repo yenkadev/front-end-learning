@@ -3,6 +3,13 @@
     margin-inline: auto;
 }
 
+.header-area {
+    background-color: var(--bg-color-light);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -17,12 +24,12 @@
 }
 
 .left-content .sub-logo-name {
-    color: rgb(95, 219, 95);
+    color: var(--text-color-primary);
 }
 
 .left-content .logo-name {
-    font-weight: bold;
-    font-size: 35px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
 }
 
 .right-content {

@@ -1,5 +1,5 @@
 .service {
-    width: 400px;
+    width: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,5 +14,5 @@
 }
 
 .service .service-title {
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
 }

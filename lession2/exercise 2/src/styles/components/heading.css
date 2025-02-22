@@ -1,5 +1,5 @@
 .heading {
-    font-size: 35px;
+    font-size: var(--font-size-md);
     text-align: center;
     letter-spacing: 7px;
 }

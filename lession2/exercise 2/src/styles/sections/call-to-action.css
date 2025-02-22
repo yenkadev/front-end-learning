@@ -8,11 +8,15 @@
     background-position: center;
 }
 
+.call-to-action .btn-navigate {
+    top: 2490px;
+}
+
 .call-to-action .title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color-light);
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
     word-spacing: 12px;
 }
 
@@ -28,9 +32,32 @@
 }
 
 .subscribe .input-subscribe {
+    background-color: var(--bg-color-light);
     width: 300px;
     height: 30px;
     padding: 0 10px;
-    background-color: white;
     border: none;
 }
+
+.btn-subscribe {
+    background-color: var(--bg-color-primary);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-subscribe .send-img {
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.btn-subscribe:hover {
+    background-color: var(--bg-color-hover);
+}
+

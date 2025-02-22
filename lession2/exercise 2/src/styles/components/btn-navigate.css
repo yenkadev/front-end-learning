@@ -1,0 +1,8 @@
+.btn-navigate {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
