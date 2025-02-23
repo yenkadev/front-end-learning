@@ -1,0 +1,71 @@
+.success__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 50px 50px;
+
+}
+
+.success__content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.success__content-left-above,
+.success__content-left-below {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.success__content-left-above-title,
+.success__content-left-below-title {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    display: flex;
+    margin-top: 20px;
+}
+
+.success__content-left-below-description {
+    display: flex;
+    gap: 10px;
+}
+
+.success__content-left-below-description-icon {
+    color: var(--primary);
+}
+
+.success__content-left-below-description,
+.success__content-left-above-description {
+    cursor: pointer;
+}
+
+.success__content-right {width: 50%;
+    background-image: url(../../assets/images/index-serives.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.success__content-right-content {
+    display: flex;
+    gap: 30px;
+}
+
+.success__content-right-content-no {
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color-primary);
+}
+
+.success__content-right-content-value {
+    color: var(--text-color-light);
+}
+
+.success__content-right-content-no,
+.success__content-right-content-value {
+    font-size: var(--font-size-sm);
+
+}
