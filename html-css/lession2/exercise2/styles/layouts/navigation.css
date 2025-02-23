@@ -5,6 +5,8 @@
     align-items: center;
     padding-inline: 45px;
     padding-bottom: 8px;
+    width: 1349px;
+    box-sizing: border-box;
 }
 
 .menu-list {

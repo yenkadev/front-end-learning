@@ -7,6 +7,7 @@
     background-color: var(--bg-color-light);
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 1000;
 }
 
@@ -14,9 +15,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 35px ;
-    padding-top: 20px;
+    padding: 40px 35px 15px 35px;
     height: 30px;
+    width: 1349px;
+    box-sizing: border-box;
 }
 
 .left-content .sub-logo-name, .left-content .logo-name {
