@@ -1,10 +1,10 @@
-.welcome__heading {
+.section__heading {
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-bold);
     padding: 20px;
 }
 
-.welcome__heading, .welcome__description {
+.section__heading, .welcome__description {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
