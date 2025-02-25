@@ -1,34 +1,34 @@
 /* Custom variables, Custom properties */
 :root {
-    /* Colors */
-    --primary: #00cece;
-    --secondary: #fa4e4e;
-    --light: #fff;
-    --dark: #000000;
+  /* Colors */
+  --primary: #00cece;
+  --secondary: #fa4e4e;
+  --light: #fff;
+  --dark: #000000;
 
-    --text-color-primary: var(--primary);
-    --text-color-secondary: var(--secondary);
+  --text-color-primary: var(--primary);
+  --text-color-secondary: var(--secondary);
 
-    --text-color-light: var(--light);
-    --text-color-dark: var(--dark);
+  --text-color-light: var(--light);
+  --text-color-dark: var(--dark);
 
-    --bg-color-primary: var(--primary);
-    --bg-color-light: var(--light);
-    --bg-color-dark: var(--dark);
+  --bg-color-primary: var(--primary);
+  --bg-color-light: var(--light);
+  --bg-color-dark: var(--dark);
 
-    /* font-family */
-    --font-family: "Barlow", sans-serif;
+  /* font-family */
+  --font-family: "Barlow", sans-serif;
 
-    /* font-size */
-    --font-size-xs: 12.6px;
-    --font-size-sm: 15px;
-    --font-size-md: 56px;
-    --font-size-lg: 60px;
+  /* font-size */
+  --font-size-xs: 12.6px;
+  --font-size-sm: 15px;
+  --font-size-md: 56px;
+  --font-size-lg: 60px;
 
-    /* font-weight*/
-    --font-weight-light: 300;
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-black: 900;
+  /* font-weight*/
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-black: 900;
 }

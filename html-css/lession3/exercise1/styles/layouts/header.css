@@ -1,52 +1,54 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 14px;
-    height: 50px;
-    box-sizing: content-box;
-    position: relative;
-    background-color: rgba(25, 25, 25, 0.8);
+  background-color: rgba(25, 25, 25, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  height: 50px;
+  box-sizing: content-box;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .header__brand:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header__brand-name {
-    color: var(--text-color-light);
-    font-size: var(--font-size-md);
-    font-weight: var(--font-weight-light);
+  color: var(--text-color-light);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-light);
 }
 
 .header__brand-name:hover {
-    color: var(--text-color-light);
+  color: var(--text-color-light);
 }
 
 .header__brand-name > span {
-    color: var(--text-color-primary);
+  color: var(--text-color-primary);
 }
 
 .header__nav-list {
-    width: 100% !important;
-    padding: 0 !important;
+  width: 100% !important;
+  padding: 0 !important;
 }
 
 .header__nav-link {
-    letter-spacing: 1px;
-    margin: 0 1em;
-    color: var(--text-color-light);
-    font-weight: var(--font-weight-regular);
-    border-bottom: 2px solid var(--light);
+  letter-spacing: 1px;
+  margin: 0 1em;
+  color: var(--text-color-light);
+  font-weight: var(--font-weight-regular);
+  border-bottom: 2px solid var(--light);
 }
 
 .header__nav-link:hover {
-    color: var(--text-color-primary) !important;
-    border-bottom: 0px;
-    transition: all 0.5s ease;
+  color: var(--text-color-primary) !important;
+  border-bottom: 0px;
+  transition: all 0.5s ease;
 }
 
 .nav-link:focus {
-    color: var(--text-color-primary);
-    border-bottom: 0px;
+  color: var(--text-color-primary);
+  border-bottom: 0px;
 }

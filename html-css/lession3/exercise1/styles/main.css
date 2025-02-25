@@ -13,7 +13,7 @@
 /* Sections styles */
 @import "./sections/index.css";
 
-/* .wrapper {
-    max-width: 1366px;
-    margin-inline: auto;
-} */
+.wrapper {
+  max-width: 1366px;
+  margin-inline: auto;
+}
