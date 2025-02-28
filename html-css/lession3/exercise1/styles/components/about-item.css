@@ -13,6 +13,15 @@
   height: 100px;
   margin: 0 auto;
   line-height: 110px;
+  cursor: pointer;
+}
+
+.about__shape:hover {
+  background-color: var(--bg-color-primary);
+}
+
+.about__shape:hover > .about__icon {
+  color: var(--light);
 }
 
 .about__icon {
