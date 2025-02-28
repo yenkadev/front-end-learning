@@ -1,0 +1,14 @@
+.stats__item {
+  text-align: center;
+}
+
+.stats__item-value {
+  color: var(--text-color-light);
+  font-size: var(--font-size-xl);
+  letter-spacing: 5px;
+}
+
+.stats__item-title {
+  font-size: var(--font-size-md);
+  letter-spacing: 2px;
+}

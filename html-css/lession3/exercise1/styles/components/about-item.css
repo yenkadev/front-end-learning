@@ -1,6 +1,9 @@
 .about__item {
   max-width: 350px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .about__shape {
