@@ -2,12 +2,12 @@
 :root {
   /* Colors */
   --primary: #00cece;
-  --secondary: #fa4e4e;
+  --secondary: #333;
   --light: #fff;
   --dark: #000000;
 
   --text-color-primary: var(--primary);
-  --text-color-secondary: var(--secondary);
+  --text-color-secondary: #7f7777;
 
   --text-color-light: var(--light);
   --text-color-dark: var(--dark);
@@ -22,7 +22,8 @@
   /* font-size */
   --font-size-xs: 12.6px;
   --font-size-sm: 15px;
-  --font-size-md: 56px;
+  --font-size-md: 30px;
+  --font-size-xl: 56px;
   --font-size-lg: 60px;
 
   /* font-weight*/

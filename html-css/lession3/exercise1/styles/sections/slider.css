@@ -1,0 +1,15 @@
+.carousel-caption {
+  bottom: 17rem !important;
+}
+
+.carousel-caption h4 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-black);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.carousel-caption p {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+}
