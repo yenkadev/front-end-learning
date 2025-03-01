@@ -1,0 +1,12 @@
+.portfolio {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 540px;
+}
+
+.portfolio__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 15px;
+}

@@ -18,6 +18,8 @@
   --bg-color-light: var(--light);
   --bg-color-dark: var(--dark);
 
+  --bg-color-hover: #000000db;
+
   /* font-family */
   --font-family: "Barlow", sans-serif;
 
