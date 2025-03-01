@@ -1,0 +1,30 @@
+.get-more {
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+  position: absolute;
+  left: 0;
+}
+
+.get-more__video {
+  width: 44.5%;
+}
+
+.get-more__content {
+  flex: 1;
+  background-color: var(--bg-color-primary);
+  padding: 50px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.get-more__title {
+  font-size: var(--font-size-xl);
+}
+
+.get-more__description {
+  color: var(--text-color-light);
+  line-height: 30px;
+}

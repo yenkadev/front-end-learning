@@ -26,10 +26,12 @@
 }
 
 .btn {
+  color: var(--text-color-primary);
   border-radius: 0;
   border: none;
 }
 
 .btn:hover {
-  color: var(--text-color-primary);
+  color: var(--text-color-light);
+  transition: ease 0.5s;
 }

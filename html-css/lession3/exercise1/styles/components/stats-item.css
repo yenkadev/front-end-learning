@@ -1,5 +1,6 @@
 .stats__item {
   text-align: center;
+  padding: 20px 60px;
 }
 
 .stats__item-value {

@@ -5,7 +5,7 @@
 .cards {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   max-width: 1170px;
   margin: 0 auto;
