@@ -1,7 +1,8 @@
 .portfolio {
   max-width: 1140px;
   margin: 0 auto;
-  margin-top: 430px;
+  margin-top: 520px;
+  margin-bottom: 70px;
 }
 
 .portfolio__list {

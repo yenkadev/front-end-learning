@@ -1,5 +1,6 @@
 .get-more {
   width: 100%;
+  min-height: 390px;
   display: flex;
   margin-top: 70px;
   position: absolute;
