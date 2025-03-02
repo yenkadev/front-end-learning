@@ -1,0 +1,11 @@
+.agents {
+  margin-top: 540px;
+  padding: 70px 0;
+}
+.agents__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
