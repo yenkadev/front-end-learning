@@ -1,0 +1,7 @@
+.contact__input {
+  background-color: var(--bg-color-secondary);
+  border-bottom: 2px solid var(--text-color-secondary);
+  padding: 12px 14px;
+  height: 20px;
+  box-sizing: content-box;
+}
