@@ -28,6 +28,7 @@
   border-bottom: 2px solid var(--dark) !important;
   border: none;
   height: 200px;
+  padding: 10px 20px;
 }
 
 .contact__text-area:active {
