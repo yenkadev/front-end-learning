@@ -1,25 +1,11 @@
 .contact {
-  margin-top: 410px;
   padding: 70px 0;
 }
-.contact__form {
-  display: flex;
-  align-items: center;
+/* .contact__form {
   gap: 30px;
-  max-width: 1140px;
-  margin: 0 auto;
-}
-.contact__form-left {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
+} */
+.contact__form-left,
 .contact__form-right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
   gap: 30px;
 }
 
@@ -29,6 +15,7 @@
   border: none;
   height: 200px;
   padding: 10px 20px;
+  outline-style: none;
 }
 
 .contact__text-area:active {

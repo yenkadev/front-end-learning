@@ -1,8 +1,5 @@
 .header {
   background-color: rgba(25, 25, 25, 0.8);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 14px;
   min-height: 50px;
   position: fixed;

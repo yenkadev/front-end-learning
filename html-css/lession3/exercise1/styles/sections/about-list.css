@@ -1,10 +1,5 @@
 .about {
-  margin: 70px 90px;
-}
-.about__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin: 70px 0;
 }
 
 .about__content-title {

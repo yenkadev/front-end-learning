@@ -1,14 +1,8 @@
 .portfolio {
-  max-width: 1140px;
-  margin: 0 auto;
-  margin-top: 520px;
+  margin-top: 50px;
   margin-bottom: 70px;
 }
 
-.portfolio__list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  column-gap: 30px;
-  row-gap: 15px;
+.portfolio__item {
+  margin: 7px 14px;
 }

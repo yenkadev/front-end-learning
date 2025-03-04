@@ -1,23 +1,18 @@
+.get-more-container {
+  margin: 0;
+}
 .get-more {
-  width: 100%;
-  min-height: 390px;
-  display: flex;
   margin-top: 70px;
-  position: absolute;
-  left: 0;
 }
 
 .get-more__video {
-  width: 44.5%;
+  padding: 0;
 }
 
 .get-more__content {
-  flex: 1;
   background-color: var(--bg-color-primary);
   padding: 50px 70px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 30px;
 }
 

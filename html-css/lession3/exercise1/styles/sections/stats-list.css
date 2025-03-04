@@ -1,14 +1,4 @@
 .stats {
   background-color: var(--bg-color-primary);
   padding: 70px 0;
-  position: absolute;
-  left: 0;
-  width: 100%;
-}
-.stats__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1140px;
-  margin: 0 auto;
 }
