@@ -13,3 +13,9 @@
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-semibold);
 }
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
