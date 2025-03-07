@@ -1,0 +1,18 @@
+.impressive-number__container {
+  padding: 70px 0;
+}
+.impressive-number__detail {
+  min-width: 255px;
+  gap: 15px;
+}
+
+.impressive-number__detail p:first-child {
+  color: var(--text-color-primary);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+}
+
+.impressive-number__detail p:last-child {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+}
