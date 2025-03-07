@@ -1,0 +1,12 @@
+.services-container {
+  padding-bottom: 50px;
+  gap: 10px;
+}
+.services {
+  background-image: url(../../images/s1.jpg);
+  background-size: cover;
+}
+
+.section__heading {
+  color: var(--text-color-light);
+}
