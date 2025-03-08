@@ -1,0 +1,52 @@
+.footer {
+    background-color: var(--bg-color-dark);
+    padding: 50px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content {
+    color: var(--text-color-light);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__content:last-child {
+    align-self: center;
+}
+
+.footer__link {
+    color: var(--text-color-third);
+}
+
+
+.footer__link-p {
+    max-width: 320px;
+}
+
+.footer__form {
+    display: flex;
+    width: 80%;
+}
+
+.footer__input {
+    background-color: var(--bg-color-light);
+    padding: 5px;
+    flex: 1;
+}
+
+.footer__button {
+    padding: 5px 20px;
+    background-color: var(--bg-color-secondary);
+    cursor: pointer;
+}
+
+.footer__branch-name {
+    color: var(--text-color-light);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+}
+
+
+

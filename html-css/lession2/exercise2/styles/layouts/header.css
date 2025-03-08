@@ -1,0 +1,54 @@
+.wrapper {
+    max-width: 1349px;
+    margin-inline: auto;
+}
+
+.header-area {
+    background-color: var(--bg-color-light);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 35px 15px 35px;
+    height: 30px;
+    width: 1349px;
+    box-sizing: border-box;
+}
+
+.left-content .sub-logo-name, .left-content .logo-name {
+    text-transform: uppercase;
+}
+
+.left-content .sub-logo-name {
+    color: var(--text-color-primary);
+}
+
+.left-content .logo-name {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
+}
+
+.right-content {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.right-content .phone-contact, 
+.right-content .email-contact {
+    display: flex;
+    gap: 5px;
+}
+
+.phone-contact .phone-img,
+.email-contact .email-img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
