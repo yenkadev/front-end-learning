@@ -1,0 +1,37 @@
+.blog__card {
+  background-color: var(--bg-color-secondary);
+  border-top: 5px solid var(--primary);
+  min-width: 350px;
+  max-height: 436px;
+  border-radius: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-title {
+  color: var(--text-color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.card-title:hover {
+  color: var(--text-color-dark);
+}
+
+.card-text {
+  line-height: 26px;
+  margin: 8px 0;
+}
+
+.btn {
+  color: var(--text-color-primary);
+  border-radius: 0;
+  border: none;
+}
+
+.btn:hover {
+  color: var(--text-color-light);
+  transition: ease 0.5s;
+}

@@ -1,0 +1,16 @@
+.stats__item {
+  text-align: center;
+  padding: 20px 60px;
+}
+
+.stats__item-value {
+  color: var(--text-color-light);
+  font-size: var(--font-size-xl);
+  letter-spacing: 5px;
+  min-width: 150px;
+}
+
+.stats__item-title {
+  font-size: var(--font-size-md);
+  letter-spacing: 2px;
+}
