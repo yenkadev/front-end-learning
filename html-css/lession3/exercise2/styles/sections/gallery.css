@@ -1,3 +1,7 @@
+.gallery {
+  padding-bottom: 50px;
+}
+
 .gallery .row {
   --bs-gutter-x: none;
 }
