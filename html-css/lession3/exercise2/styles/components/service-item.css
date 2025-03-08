@@ -1,8 +1,10 @@
 .services__item {
-  gap: 15px;
+  gap: 20px;
+  max-width: 220px;
 }
 
 .services__item-icon {
+  background-color: var(--bg-color-light);
   border: 1px solid var(--primary);
   width: 98px;
   height: 98px;

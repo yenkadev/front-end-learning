@@ -1,8 +1,8 @@
-.row {
+.introduction .row {
   --bs-gutter-x: 0px;
 }
 
-.row > * {
+.introduction .row > * {
   text-align: center;
 }
 
@@ -30,29 +30,29 @@
   padding: 0px 32px;
 }
 
-.row div {
+.introduction .row div {
   padding-top: 160px;
 }
 
 /* first row */
-.row:first-child > .col-3:first-of-type {
+.introduction .row:first-child > .col-3:first-of-type {
   background-color: var(--bg-color-primary);
 }
 
-.row:first-child > .col-3:last-of-type {
+.introduction .row:first-child > .col-3:last-of-type {
   background-color: var(--bg-color-secondary);
 }
 
 /* second row */
-.row:nth-child(2) > .col-6 {
+.introduction .row:nth-child(2) > .col-6 {
   background-color: var(--bg-color-fourth);
 }
 
-.row:nth-child(2) > .col-3:last-of-type {
+.introduction .row:nth-child(2) > .col-3:last-of-type {
   background-color: var(--bg-color-fifth);
 }
 
 /* third row */
-.row:last-child > .col-3:nth-child(2) {
+.introduction .row:last-child > .col-3:nth-child(2) {
   background-color: var(--bg-color-primary);
 }
