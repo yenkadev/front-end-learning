@@ -3,7 +3,7 @@
   max-width: 220px;
 }
 
-.services__item-icon {
+.services__icon {
   background-color: var(--bg-color-light);
   border: 1px solid var(--primary);
   width: 98px;
@@ -11,30 +11,30 @@
   border-radius: 50%;
 }
 
-.services__item-icon > i {
+.services__icon > i {
   color: var(--primary);
   font-size: 56px;
   transition: ease 0.5s;
 }
 
-.services__item-content {
+.services__content {
   gap: 20px;
 }
 
-.services__item-content > h4 {
+.services__content > h4 {
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-medium);
   letter-spacing: 2px;
   line-height: 27.6px;
 }
 
-.services__item-content > p {
+.services__content > p {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-regular);
   line-height: 25px;
   text-align: center;
 }
 
-.services__item:hover > .services__item-icon > i {
+.services__item:hover > .services__icon > i {
   color: var(--secondary);
 }
