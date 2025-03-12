@@ -1,0 +1,24 @@
+.testimonials {
+  background-image: url(../../images/cc1.jpg);
+  background-size: cover;
+}
+
+.testimonials__title {
+  color: var(--text-color-light);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+
+.carousel-indicators {
+  top: 140px;
+  gap: 7px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--dark);
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}

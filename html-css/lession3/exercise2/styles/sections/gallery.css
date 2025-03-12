@@ -2,10 +2,6 @@
   padding-bottom: 50px;
 }
 
-.gallery .row {
-  --bs-gutter-x: none;
-}
-
 .gallery .section__heading {
   color: var(--text-color-dark);
 }
