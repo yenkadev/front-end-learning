@@ -1,21 +1,24 @@
 .footer {
   background-color: var(--bg-color-dark);
   color: var(--text-color-light);
-  padding: 24px 0;
+  padding: 55px 0;
   margin-top: 70px;
+  max-height: 441px;
+  box-sizing: content-box;
 }
 
 .footer__content {
   gap: 25px;
 }
 
-.row {
-  padding: 48px 15px;
+.footer .row {
+  padding: 0 15px;
 }
 
 .footer__title {
   color: var(--text-color-secondary);
   font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
   letter-spacing: 2px;
   line-height: 27.6px;
 }
@@ -47,4 +50,10 @@
 .footer__form input:last-child:hover {
   color: var(--text-color-dark);
   background-color: var(--light);
+}
+
+.footer__description li {
+  border-bottom: 1px dotted var(--light);
+  padding: 0px 0px 7px;
+  margin-bottom: 10px;
 }
