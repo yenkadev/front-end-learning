@@ -1,8 +1,50 @@
 .footer {
-  background-color: var(--bg-color-primary);
+  background-color: var(--bg-color-dark);
   color: var(--text-color-light);
-  height: 54px;
-  line-height: 54px;
-  padding: 28px 0;
-  box-sizing: content-box;
+  padding: 24px 0;
+  margin-top: 70px;
+}
+
+.footer__content {
+  gap: 25px;
+}
+
+.row {
+  padding: 48px 15px;
+}
+
+.footer__title {
+  color: var(--text-color-secondary);
+  font-size: var(--font-size-xl);
+  letter-spacing: 2px;
+  line-height: 27.6px;
+}
+
+.footer__description {
+  font-weight: var(--font-weight-regular);
+  line-height: 28px;
+}
+
+.footer__form > form {
+  gap: 20px;
+}
+
+.footer__form input:first-child {
+  background-color: var(--light);
+  padding: 9px;
+  border-radius: 4px;
+}
+
+.footer__form input:last-child {
+  background-color: var(--secondary);
+  font-weight: var(--font-weight-semibold);
+  padding: 6px 16px;
+  border-radius: 4px;
+  width: 37%;
+  transition: ease-in-out 0.5s;
+}
+
+.footer__form input:last-child:hover {
+  color: var(--text-color-dark);
+  background-color: var(--light);
 }

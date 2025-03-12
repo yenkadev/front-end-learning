@@ -1,6 +1,15 @@
 .testimonials {
   background-image: url(../../images/cc1.jpg);
   background-size: cover;
+  padding-bottom: 70px;
+}
+
+.carousel-inner {
+  border: 4px solid var(--secondary);
+  background-color: #ffffff80;
+  width: 100%;
+  padding: 30px;
+  min-height: 205px;
 }
 
 .testimonials__title {
