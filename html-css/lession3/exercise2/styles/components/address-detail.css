@@ -1,0 +1,23 @@
+.address__detail {
+  gap: 15px;
+}
+
+.address__detail > i {
+  color: var(--primary);
+  font-size: 28px;
+}
+
+.address__text {
+  gap: 10px;
+}
+
+.address__text > a {
+  color: var(--dark);
+  font-weight: var(--font-weight-light);
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.address__text > a:hover {
+  color: var(--primary);
+}

@@ -1,0 +1,23 @@
+.carousel-caption {
+  bottom: 30%;
+}
+
+.carousel-caption {
+  gap: 25px;
+}
+
+.carousel-caption h1 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  line-height: 61.44px;
+  letter-spacing: 3px;
+}
+
+.carousel-caption p {
+  font-weight: var(--font-weight-regular);
+  line-height: 25.5px;
+}
+
+.carousel-caption a {
+  margin: 0 auto;
+}
