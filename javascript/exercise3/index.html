@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tidocument.getElementById("tip-amount").innerHTML = `ền Tip</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Tính Tiền Tip</h1>
+      <div class="">
+        <p>Tổng tiền thanh toán</p>
+        $ <input type="number" id="money" placeholder="Tổng tiền" />
+      </div>
+      <div class="">
+        <p>Bạn muốn Tip bao nhiêu?</p>
+        <select id="tip">
+          <option disabled selected>Chọn tiền tip</option>
+          <option value="30">30% - Tuyệt</option>
+          <option value="20">20% - Tốt</option>
+          <option value="15">15% - Tạm ổn</option>
+          <option value="10">10% - Tồi</option>
+          <option value="5">5% - Thật tệ</option>
+        </select>
+      </div>
+      <div class="">
+        <p>Bạn muốn share bao nhiêu người</p>
+        $
+        <input type="number" id="people" placeholder="Nhập số người" />
+        người
+      </div>
+      <button class="btn-submit" id="btn-submit">Tính nào</button>
+      <div class="tip-amount" id="tip-amount">
+        <!-- Dũ liệu được chèn ở đây -->
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

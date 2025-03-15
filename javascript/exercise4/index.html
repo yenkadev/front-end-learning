@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tính tiền taxi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2 class="title">TÍNH CƯỚC UBER</h2>
+            <div>
+              <p>Vui lòng chọn loại xe</p>
+              <label>
+                <input
+                  type="radio"
+                  id="uberX"
+                  name="uber"
+                  class="uber-input"
+                  value="Uber X"
+                />
+                Uber X
+              </label>
+
+              <label>
+                <input
+                  type="radio"
+                  id="uberSUV"
+                  name="uber"
+                  class="uber-input"
+                  value="Uber SUV"
+                />
+                Uber SUV
+              </label>
+
+              <label>
+                <input
+                  type="radio"
+                  id="uberBlack"
+                  name="uber"
+                  class="uber-input"
+                  value="Uber Black"
+                />
+                Uber Black
+              </label>
+            </div>
+
+            <div class="soKM">
+              <p>Nhập số KM</p>
+              <input id="soKM" type="number" placeholder="Nhập KM" />
+            </div>
+
+            <div class="thoigian">
+              <p>Nhập thời gian chờ (phút)</p>
+              <input id="thoigian" type="number" />
+            </div>
+
+            <div class="action d-flex">
+              <button class="btn-tinhtien" id="btn-tinhtien">Tính tiền</button>
+              <button class="btn-inhoadon" id="btn-inhoadon">In hóa đơn</button>
+            </div>
+          </div>
+
+          <div class="col-6" id="result"></div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
