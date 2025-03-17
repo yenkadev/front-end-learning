@@ -1,0 +1,22 @@
+.container {
+  width: 400px;
+  height: 485px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  background-color: #91cff0;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn-submit {
+  padding: 7px 12px;
+  margin: 20px 0;
+  text-align: center;
+  background-color: rgb(255, 107, 107);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

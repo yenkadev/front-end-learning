@@ -1,0 +1,21 @@
+.wrapper {
+  text-align: center;
+}
+
+.light-img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.buttons {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-off,
+.btn-on {
+  cursor: pointer;
+}
