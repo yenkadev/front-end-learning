@@ -1,0 +1,17 @@
+.contact > .section__heading {
+  color: var(--text-color-dark);
+}
+
+.col-12 > input {
+  background-color: var(--secondary);
+  font-weight: var(--font-weight-semibold);
+  width: 100%;
+  padding: 11px 48px;
+  transition: ease-in-out 0.5s;
+  margin-top: 20px;
+}
+
+.col-12:hover > input {
+  background-color: var(--dark);
+  color: var(--light);
+}

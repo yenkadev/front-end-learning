@@ -1,0 +1,60 @@
+.introduction .row > * {
+  text-align: center;
+}
+
+.introduction__item {
+  gap: 25px;
+}
+
+.introduction__title {
+  color: var(--text-color-light);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: 28.8px;
+  padding-bottom: 20px;
+}
+
+.introduction__description {
+  color: var(--text-color-third);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: 29px;
+}
+
+.introduction__title,
+.introduction__description {
+  padding: 0px 32px;
+}
+
+.introduction__title {
+  padding-top: 160px;
+}
+
+.introduction__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* first row */
+.introduction .row > div:first-child {
+  background-color: var(--bg-color-primary);
+}
+
+.introduction .row > div:nth-child(3) {
+  background-color: var(--bg-color-secondary);
+}
+
+/* second row */
+.introduction .row > div:nth-child(4) {
+  background-color: var(--bg-color-fourth);
+}
+
+.introduction .row > div:nth-child(6) {
+  background-color: var(--bg-color-fifth);
+}
+
+/* third row */
+.introduction .row > div:nth-child(8) {
+  background-color: var(--bg-color-primary);
+}

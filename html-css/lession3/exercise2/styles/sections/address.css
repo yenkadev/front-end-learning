@@ -1,0 +1,7 @@
+.address_map {
+  padding: 50px 12px;
+}
+.address_map > iframe {
+  width: 100%;
+  max-height: 351px;
+}

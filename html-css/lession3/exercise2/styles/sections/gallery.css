@@ -1,0 +1,17 @@
+.gallery {
+  padding-bottom: 50px;
+}
+
+.gallery .section__heading {
+  color: var(--text-color-dark);
+}
+
+.gallery__item {
+  padding: 15px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
