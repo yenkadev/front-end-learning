@@ -25,19 +25,7 @@ function getTaxiCount(passengersCount) {
   if (passengersCount <= 0) {
     return -1;
   }
-  if (passengersCount <= 4) {
-    return 1;
-  }
-  if (passengersCount > 4 && passengersCount <= 7) {
-    return 1;
-  }
-  if (passengersCount > 7) {
-    if (passengersCount % 7 == 0) {
-      return passengersCount / 7;
-    } else {
-      return Math.floor(passengersCount / 7) + 1;
-    }
-  }
+  return Math.ceil(passengersCount / 7);
 }
 
 console.log(getTaxiCount(3));

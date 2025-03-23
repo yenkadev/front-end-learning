@@ -1,33 +1,10 @@
 /**
- * Tìm chữ số lớn nhất của một số nguyên dương
-  Viết hàm function getMaxDigit(n) {} để tìm ra chữ số lớn nhất của một số nguyên dương n (0 <= n < 1000)
+ * Kiểm tra số có tối đa 3 chữ số có phải là số đối xứng hay không?
+  Viết hàm isSymmetricNumber(n) để nhận vào số nguyên dương n có tối đa 3 chữ số và trả về true nếu n là số đối xứng, ngược lại trả về false.
 
-  Ví dụ:
+  Giả sử tham số n truyền vào luôn luôn là số có tối đa 3 chữ số. (0 --> 999)
 
-  getMaxDigit(1) --> 1
+  Số đối xứng là số mà đọc từ trái sang phải nó giống như đọc từ phải sang trái.
 
-  getMaxDigit(12) --> 2
-
-  getMaxDigit(123) --> 3
-
-  getMaxDigit(921) --> 9
-
-  Trường hợp dữ liệu không hợp lệ, nằm ngoài vùng cho phép của n thì trả về -1
+  Ví dụ: 1, 22, 33, 121, 222, 353, 373, ...
  */
-
-function getMaxDigit(n) {
-  if (n < 0 || n > 1000) return -1;
-  const ones = n % 10;
-  const tens = Math.trunc((n % 100) / 10);
-  const hundreds = Math.trunc(n / 100);
-  const thousands = Math.trunc(n / 100);
-  max = ones;
-  if (max < tens) max = tens;
-  if (max < hundreds) max = hundreds;
-  if (max < thousands) max = thousands;
-  return max;
-}
-console.log(getMaxDigit(1));
-console.log(getMaxDigit(12));
-console.log(getMaxDigit(123));
-console.log(getMaxDigit(921));
