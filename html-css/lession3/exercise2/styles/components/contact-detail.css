@@ -1,0 +1,17 @@
+.contact-detail {
+  border: 1px solid var(--dark);
+  border-radius: 4px;
+}
+
+.contact-detail,
+.col-12 > textarea {
+  width: 100%;
+  padding: 15px;
+}
+
+.col-12 > textarea {
+  color: var(--text-color-dark);
+  border: 1px solid var(--dark);
+  min-height: 180px;
+  outline: none;
+}

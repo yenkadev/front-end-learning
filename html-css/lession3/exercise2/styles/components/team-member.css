@@ -1,0 +1,89 @@
+.team__member {
+  border: none;
+  border-radius: 0;
+  background: none !important;
+}
+
+.team__member > img {
+  border-radius: 0;
+}
+
+.team__text {
+  background-color: var(--bg-color-secondary);
+  color: var(--text-color-light);
+  width: 100%;
+  padding: 25px;
+  bottom: 0;
+  opacity: 1;
+  transition: ease-out 0.7s;
+}
+
+.team__detail {
+  background-color: var(--bg-color-dark) !important;
+  padding: 30px;
+  height: 100%;
+  gap: 10px;
+  opacity: 0;
+  transition: ease-out 0.7s;
+  top: 0;
+  left: 0;
+}
+
+.team__text > h5,
+.team__title > h5 {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+  line-height: 25.2px;
+}
+
+.team__text > p,
+.team__title > p,
+.team__detail > .team__description {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: 28px;
+}
+
+.team__title > h5 {
+  color: var(--text-color-secondary);
+}
+
+.team__title > p,
+.team__detail > .team__description {
+  color: var(--text-color-light);
+}
+
+.team__contact {
+  padding-top: 10px;
+}
+
+.team__contact-detail {
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--light);
+  transition: ease 0.5s;
+}
+
+.team__contact-detail > i {
+  color: var(--light);
+}
+
+.team__contact-detail:hover {
+  border: 1px solid var(--secondary);
+}
+
+.team__contact-detail:hover > i {
+  color: var(--secondary);
+}
+
+.team__contact {
+  gap: 15px;
+}
+
+.team__member:hover > .team__information > .team__text {
+  opacity: 0;
+}
+
+.team__member:hover > .team__information > .team__detail {
+  opacity: 0.8;
+}

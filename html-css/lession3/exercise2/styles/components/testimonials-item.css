@@ -1,0 +1,12 @@
+.testimonials__content {
+  color: var(--text-color-dark);
+  gap: 20px;
+  text-align: center;
+}
+
+.testimonials__description > i {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-black);
+  color: #2cbeff;
+  padding: 0 10px;
+}
