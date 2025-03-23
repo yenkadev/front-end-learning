@@ -20,3 +20,27 @@
 
   getTaxiCount(20) --> 3 xe 7 chỗ
  */
+
+function getTaxiCount(passengersCount) {
+  if (passengersCount <= 0) {
+    return -1;
+  }
+  if (passengersCount <= 4) {
+    return 1;
+  }
+  if (passengersCount > 4 && passengersCount <= 7) {
+    return 1;
+  }
+  if (passengersCount > 7) {
+    if (passengersCount % 7 == 0) {
+      return passengersCount / 7;
+    } else {
+      return Math.floor(passengersCount / 7) + 1;
+    }
+  }
+}
+
+console.log(getTaxiCount(3));
+console.log(getTaxiCount(6));
+console.log(getTaxiCount(10));
+console.log(getTaxiCount(20));

@@ -14,3 +14,20 @@
 
   Trường hợp dữ liệu không hợp lệ, nằm ngoài vùng cho phép của n thì trả về -1
  */
+
+function getMaxDigit(n) {
+  if (n < 0 || n > 1000) return -1;
+  const ones = n % 10;
+  const tens = Math.trunc((n % 100) / 10);
+  const hundreds = Math.trunc(n / 100);
+  const thousands = Math.trunc(n / 100);
+  max = ones;
+  if (max < tens) max = tens;
+  if (max < hundreds) max = hundreds;
+  if (max < thousands) max = thousands;
+  return max;
+}
+console.log(getMaxDigit(1));
+console.log(getMaxDigit(12));
+console.log(getMaxDigit(123));
+console.log(getMaxDigit(921));

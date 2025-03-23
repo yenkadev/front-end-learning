@@ -7,7 +7,7 @@
 
 /**
  * Cách khai báo biến trong Js
- * ES5: Dùng var (function scrope)
+ * ES5: Dùng var (function scope)
  * ES6: Dùng let và const (block scope)
  * Scope thì hiểu sau
  * Const thì dùng cho hằng số mà kg nhu cầu thay đổi 

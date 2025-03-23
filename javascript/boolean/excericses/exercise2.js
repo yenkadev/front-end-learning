@@ -16,3 +16,18 @@
 
   Trường hợp không truyền languageCode hoặc languageCode không hợp lệ thì trả về mặc định "Hello"
  */
+languageCode = {
+  en: "Hello",
+  vi: "Xin chào",
+  fr: "Bonjour",
+  cn: "Nǐn hǎo",
+  ja: "Konnichiwa",
+  ko: "Anyoung haseyo",
+};
+
+function sayHello(key) {
+  return languageCode[key] || "Hello";
+}
+
+console.log(sayHello("en"));
+console.log(sayHello("vi"));
