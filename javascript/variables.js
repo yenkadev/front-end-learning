@@ -10,7 +10,7 @@
  * ES5: Dùng var (function scope)
  * ES6: Dùng let và const (block scope)
  * Scope thì hiểu sau
- * Const thì dùng cho hằng số mà kg nhu cầu thay đổi 
+ * Const thì dùng cho hằng số mà kg nhu cầu thay đổi
  * Let thì dùng cho biến có mong muốn thay đổi giá trị
  * Tips: Luôn luôn dùng const cho đến khi cần let
  */
@@ -25,8 +25,8 @@
  * Với dạng danh sách thì suffix List
  */
 
-const product = 'Js course'; // BAD
-const productName = 'Js course'; // GOOD
+const product = "Js course"; // BAD
+const productName = "Js course"; // GOOD
 
 // true/false varibales
 const hasValidItem = true;
@@ -36,11 +36,11 @@ const hasPositiveNumber = false;
 
 // single noun
 const student = {
-  name: "Yen Ka"
-}
+  name: "Yen Ka",
+};
 
 // plural noun
-const studentList = [].map(student => console.log(student.name));
+const studentList = [].map((student) => console.log(student.name));
 
 /**
  * Kiểu đặt tên biến
