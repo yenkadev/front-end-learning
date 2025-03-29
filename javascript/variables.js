@@ -8,21 +8,37 @@
 
 /**
  * Cách khai báo biến trong Js
+ * ES5: Dùng var (function scope)
+ * ES6: Dùng let và const (block scope)
+ * Scope thì hiểu sau
+ * Const thì dùng cho hằng số mà kg nhu cầu thay đổi
+ * Let thì dùng cho biến có mong muốn thay đổi giá trị
+ * Tips: Luôn luôn dùng const cho đến khi cần let
  * - ES5: Dùng var (function scope)
  * - ES6: Dùng const hoặc let (block scope)
  * - Scope thì hiểu sau
- * - Const thì dùng cho hằng số hoặc biến mà kg nhu cầu thay đổi 
+ * - Const thì dùng cho hằng số hoặc biến mà kg nhu cầu thay đổi
  * - Let thì dùng cho biến có mong muốn thay đổi giá trị
  * - Tips: Luôn luôn dùng const cho đến khi cần let
  */
 
 // ES5
-var name = 'Javascript course';
+var name = "Javascript course";
 
 // ES6
 const PI = 3.14;
-const name = 'Js';
-name = 'Course'; // error assignment to constant variable
+const name = "Js";
+name = "Course"; // error assignment to constant variable
+let count = 1;
+count = 2; // works
+
+// ES5
+var name = "Javascript course";
+
+// ES6
+const PI = 3.14;
+const name = "Js";
+name = "Course"; // error assignment to constant variable
 let count = 1;
 count = 2; // works
 
@@ -36,8 +52,8 @@ count = 2; // works
  * - Với dạng danh sách thì suffix List
  */
 
-const product = 'Js course'; // BAD
-const productName = 'Js course'; // GOOD
+const product = "Js course"; // BAD
+const productName = "Js course"; // GOOD
 
 // true/false variable
 const hasValidItem = true;
@@ -47,11 +63,11 @@ const show = false;
 
 // single noun
 const student = {
-  name: "Yen Ka"
-}
+  name: "Yen Ka",
+};
 
 // plural noun
-const studentList = [].map(student => console.log(student.name));
+const studentList = [].map((student) => console.log(student.name));
 
 /**
  * Case styles

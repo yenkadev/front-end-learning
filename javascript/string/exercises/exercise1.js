@@ -16,3 +16,9 @@
 
   Lưu ý: không được sử dụng for, chỉ được dùng hàm replace()
  */
+
+function removeVowel(str) {
+  return str.replace(/[ueoai]/g, "").trim();
+}
+console.log(removeVowel(""));
+console.log(removeVowel("say hello"));
