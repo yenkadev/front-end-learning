@@ -1,13 +1,14 @@
 /**
- * && AND
- * || OR
- * ! NOT
- * !! NOT NOT
+ * Logical Operators
+ * - &&: AND
+ * - ||: OR
+ * - !: NOT
+ * - !!: NOT NOT
  */
 
 /**
- * AND
- * A                  B                 A && B
+ * AND table
+ *  A                  B                 A && B
  * TRUE               TRUE                TRUE
  * TRUE               FALSE               FALSE
  * FALSE              TRUE                FALSE
@@ -15,8 +16,8 @@
  */
 
 /**
- * OR
- * A                  B                 A || B
+ * OR table
+ *  A                  B                 A || B
  * TRUE               TRUE                TRUE
  * TRUE               FALSE               TRUE
  * FALSE              TRUE                TRUE
@@ -24,8 +25,8 @@
  */
 
 /**
- * NOT
- * A                  !A                 !!A
+ * NOT table
+ *  A                  !A                 !!A
  * TRUE               FALSE               TRUE
  * FALSE              TRUE                FALSE
  */

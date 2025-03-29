@@ -1,4 +1,8 @@
 /**
+ * Random number in JS
+ */
+
+/**
  * Random một số ngẫu nhiên trong khoảng [a, b] với a < b
  */
 
@@ -7,7 +11,7 @@ function randomNumber(a, b) {
   // b: 100
   if (a >= b) return -1;
   const random = Math.random() * (b - a);
-  return Math.round(random) + a;
+  return Math.round(random) + a; // vì nằm trong khoảng từ a
 }
 
 console.log(randomNumber(10, 100));

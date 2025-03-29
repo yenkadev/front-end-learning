@@ -1,14 +1,45 @@
 /**
- * Condition là một giá trị boolean
- * Nếu condition là kiểu giá trị khác, nó sẽ tự động chuyển về boolean;
- * Hạn chế sử dụng else, bỏ được hãy bỏ với if return
- * Hạn chế dùng nested if ... else
+ * Control flow if...else
+ * - Condition là một giá trị boolean
+ * - Nếu condition là kiểu giá trị khác, nó sẽ tự động chuyển về boolean
+ * - Hạn chế sử dụng else, bỏ được hãy bỏ bằng cách if return
+ * - Hạn chế dùng nested if ... else
  */
+if (condition) doSomething(); // GOOD
+if (condition) {
+  // GOOD
+  doSomething();
+  doSomethingElse();
+}
 
-/** Ex1: Write a function to check if a number a positive even number
- * If yes return true, otherwise return false
+if (condition) {
+  doSomething();
+} else {
+  doSomethingElse();
+}
+
+if (condition) {
+  // BAD
+  doSomething();
+} else if (anotherCondition) {
+  doSomethingElse();
+} else {
+  doSomethingFinally();
+}
+
+if (condition1) {
+  // Tránh nested if
+  if (condition2) {
+    doSomething();
+  } else {
+    doSomethingElse();
+  }
+}
+
+/** Ex1
+ * - Write a function to check if a number a positive even number
+ * - If yes return true, otherwise return false
  */
-
 // V1
 function isPositiveEvenNumber(n) {
   let isValid;
@@ -52,14 +83,14 @@ function isPositiveEvenNumber(n) {
 console.log(isPositiveEvenNumber(5));
 
 /**
- * Write a function to classify student
- * Receive mark as number, output:
- * mark > 8 -> 'Excellence'
- * 7 <= mark <= 8 -> 'Good'
- * 4 <= mark <= 6 -> 'Not Good'
- * mark <4 -> 'Bad'
+ * Ex2
+ * - Write a function to classify student
+ * - Receive mark as number, output:
+ * - mark > 8 -> 'Excellence'
+ * - 7 <= mark <= 8 -> 'Good'
+ * - 4 <= mark <= 6 -> 'Not Good'
+ * - mark < 4 -> 'Bad'
  */
-
 // v1
 function classifyStudent(mark) {
   let result;
@@ -80,3 +111,7 @@ function classifyStudent(mark) {
   if (mark >= 4) return "Not Good";
   return "Bad";
 }
+
+/**
+ * Read more: https://javascript.info/ifelse
+ */

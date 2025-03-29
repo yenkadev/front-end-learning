@@ -1,7 +1,10 @@
 /**
- * Random một số ngẫu nhiên trong khoảng [0, n]
+ * Random number in JS
  */
 
+/**
+ * Random một số ngẫu nhiên trong khoảng [0, n]
+ */
 function randomNumber(n) {
   // n = 5  random(): 0.9
   if (n <= 0) return -1;
