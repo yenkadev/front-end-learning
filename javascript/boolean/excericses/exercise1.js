@@ -11,8 +11,6 @@
 
   Trên 12 tuổi thì đồng giá 50.000 VND
 
-
-
   Viết hàm function getTicketPrice(age)  để giúp mình lấy được giá tiền khi biết tuổi của khách hàng nhé.
 
   Trả về là một con số nguyên:

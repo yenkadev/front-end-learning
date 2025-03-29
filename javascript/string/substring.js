@@ -1,9 +1,12 @@
 /**
- * slice: Thì hỗ trợ số âm. Số âm thì được đếm ngược từ cuối chuỗi. Không ccho phép start > end
+ * Làm việc với substring
+ * slice: Thì hỗ trợ số âm. Số âm thì được đếm ngược từ cuối chuỗi. Không cho phép start > end
  * substring: Xem số âm là số 0. Cho phép start > end
  */
 
-// Slice
+/**
+ * Slice
+ */
 'Javascript course'.slice(0, 5); // Javas
 console.log("", 'Javascript course'.slice(0, 5));
 'Javascript course'.slice(2); // vascript course
@@ -12,7 +15,9 @@ console.log('Javascript course'.slice(-2));
 console.log('Javascript course'.slice(-4, -1));
 console.log('Javascript course'.slice(6, 1)); // ''
 
-// Substring
+/**
+ * Substring
+ */
 'Javascript course'.substring(0, 5); // Javas
 'Javascript course'.substring(2); // vascript course
 'Javascript course'.substring(-2); // Javascript course
