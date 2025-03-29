@@ -12,7 +12,6 @@
 /**
  * Tổng quan về string
  * - Js không có kiểu dữ liệu cho từng ký tự, chỉ dùng chung một kiểu dữ liệu là string
- * - Js không có kiểu dữ liệu cho từng ký tự, chỉ dùng chung một kiểu dữ liệu là string
  */
 
 /**
