@@ -13,3 +13,17 @@
  * 11. reduce
  * 12. Coding exercise
  */
+
+/**
+ * Khai báo mảng
+ * - Ðặt tên nên dùng suffix là List
+ * - Mỗi phần tử có thể có một kiểu dữ liệu khác nhau.
+ */
+
+/**
+ * Truy xuất phần tử của mảng
+ */
+
+/**
+ * Mảng 2 chiều
+ */
