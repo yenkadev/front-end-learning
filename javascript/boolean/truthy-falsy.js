@@ -12,12 +12,9 @@ if (NaN) {
   console.log("true");
 }
 console.log("false");
-<<<<<<< HEAD
-=======
 
 /**
- * Read more: 
+ * Read more:
  * - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
  * - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
  */
->>>>>>> 46e8177b49d635d122de179508528b1a453959e7

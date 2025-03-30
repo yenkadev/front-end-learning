@@ -23,7 +23,7 @@
 
 function formatTime(seconds) {
   if (seconds < 0 || seconds > 86400) return -1;
-  const hours = Math.trunc(seconds / 3600);
+  const hours = Math.trunc(seconds / j0);
   const minutes = Math.trunc((seconds % 3600) / 60);
   const secs = seconds % 60;
 
