@@ -18,13 +18,12 @@
  */
 
 function removeVowel(str) {
-  str.replace("u", "");
-  str.replace("e", "");
-  str.replace("o", "");
-  str.replace("a", "");
-  str.replace("i", "");
-  str.trim();
-  return str;
+  result = str
+    .replace("u", "")
+    .replace("e", "")
+    .replace("o", "")
+    .replace("a", "")
+    .replace("i", "")
+    .trim();
+  return result;
 }
-console.log(removeVowel(""));
-console.log(removeVowel("say hello"));

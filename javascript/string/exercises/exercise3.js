@@ -23,15 +23,12 @@
 
 function formatTime(seconds) {
   if (seconds < 0 || seconds > 86400) return -1;
-  const hours = Math.trunc(seconds / j0);
+  const hours = Math.trunc(seconds / 3600);
   const minutes = Math.trunc((seconds % 3600) / 60);
   const secs = seconds % 60;
 
-  const formatNumber = (num) => (num < 10 ? "0" + num : "" + num);
-
-  return `${formatNumber(hours)}:${formatNumber(minutes)}:${formatNumber(
-    secs
-  )}`;
+  let hh = hours < 10 ? "0" + hours : String(hours);
+  let mm = minutes < 10 ? "0" + minutes : String(minutes);
+  let ss = secs < 10 ? "0" + secs : String(secs);
+  return hh + ":" + mm + ":" + ss;
 }
-console.log(formatTime(0));
-console.log(formatTime(9));

@@ -33,7 +33,7 @@ name[0] = "S";
 console.log("name", name); // Yen Ka
 
 /**
- * Read more: 
+ * Read more:
  * - https://stackoverflow.com/questions/2241348/what-are-unicode-utf-8-and-utf-16
  * - https://en.wikipedia.org/wiki/Character_encoding
  * - https://en.wikipedia.org/wiki/UTF-16

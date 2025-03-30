@@ -21,8 +21,8 @@
 
 function formatSecondsV1(seconds) {
   if (seconds < 0 || seconds >= 60) return -1;
-  if (seconds < 10) return "0" + seconds;
-  return "" + seconds;
+  if (seconds < 10) return ("0" + seconds).toString();
+  return seconds.toString();
 }
 console.log(formatSecondsV1(0));
 console.log(formatSecondsV1(9));

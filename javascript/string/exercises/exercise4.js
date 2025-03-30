@@ -27,4 +27,9 @@
   isSecureUrlV2(url) Sử dụng startsWith()
  */
 
-  // startWith()
+// startWith()
+
+function isSecureUrlV2(url) {
+  if (url.startsWith("https") || url.startsWith("wss")) return true;
+  return false;
+}
