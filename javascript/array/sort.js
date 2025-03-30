@@ -9,7 +9,8 @@
  *       - KQ trả về > 0, a sẽ đứng sau b
  * - sort() sẽ trả về mảng sau khi sort (nhưng đây là mảng hiện tại, không phải mảng mới)
  */
-
+const numberList = [1, 3, 2];
+numberList.sort()
 /**
  * Các thuật toán sắp xếp
  */

@@ -10,7 +10,7 @@
  */
 
 // Case 1 -> 10. Return true
-// Case 2 -> 11 -> 999 -> Kiểm tra -> true/falsefalse
+// Case 2 -> 11 -> 999 -> Kiểm tra -> true/false
 
 function isSymmetricNumber(n) {
   if (n < 0 || n > 999) return -1;
