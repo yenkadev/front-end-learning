@@ -22,3 +22,15 @@
 
   getFullName('john', 'pHAm') --> 'John Pham'
  */
+
+function getFullName(firstName, lastName) {
+  if (firstName === undefined) firstName = "";
+  if (lastName === undefined) lastName = "";
+  if (firstName.length > 0) {
+    firstName = firstName[0].toUpperCase() + firstName.slice(1).toLowerCase();
+  }
+  if (lastName.length > 0) {
+    lastName = lastName[0].toUpperCase() + lastName.slice(1).toLowerCase();
+  }
+  return (firstName + lastName).trim();
+}

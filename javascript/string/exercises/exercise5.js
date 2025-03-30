@@ -16,3 +16,9 @@
 
   extractDomainV2(email) Sử dụng indexOf() và slice()
  */
+
+function extractDomain(email) {
+  const atIndex = email.indexOf("@");
+  if (atIndex === -1) return "";
+  return email.slice(atIndex + 1);
+}

@@ -11,3 +11,10 @@
 
 // Case 1 -> 10. Return true
 // Case 2 -> 11 -> 999 -> Kiểm tra -> true/falsefalse
+
+function isSymmetricNumber(n) {
+  if (n < 0 || n > 999) return -1;
+  if (n < 10) return true;
+  if (n >= 10 && n <= 99) return n % 10 === Math.floor(n / 10);
+  if (n > 99) return n % 10 === Math.floor(n / 100);
+}

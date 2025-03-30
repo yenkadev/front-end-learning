@@ -18,7 +18,12 @@
  */
 
 function removeVowel(str) {
-  return str.replace(/[ueoai]/g, "").trim();
+  result = str
+    .replace("u", "")
+    .replace("e", "")
+    .replace("o", "")
+    .replace("a", "")
+    .replace("i", "")
+    .trim();
+  return result;
 }
-console.log(removeVowel(""));
-console.log(removeVowel("say hello"));

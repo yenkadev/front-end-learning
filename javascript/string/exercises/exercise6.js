@@ -16,3 +16,14 @@
 
   Lưu ý: được phép dùng vòng for để duyệt chuỗi trong bài này.
  */
+
+function findSecret(code) {
+  let secret = "";
+  let lowerCase = code.toLowerCase();
+  for (let i = 0; i < code.length; i++) {
+    if (code[i] === lowerCase[i]) {
+      secret += code[i];
+    }
+  }
+  return secret;
+}
