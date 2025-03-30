@@ -8,3 +8,6 @@
 
   Ví dụ: 1, 22, 33, 121, 222, 353, 373, ...
  */
+
+// Case 1 -> 10. Return true
+// Case 2 -> 11 -> 999 -> Kiểm tra -> true/falsefalse

@@ -12,9 +12,7 @@
 
   findSecret('SUPERhelloCODE') --> 'hello'
 
-  findSecret('eaABFHsyUEYSJfrontJSKJSHend') --> 'easyfrontend'
-
-  Happy coding!
+  findSecret('eaABFHsyUEYSJfrontJSKJSHend') --> 'frontend'
 
   Lưu ý: được phép dùng vòng for để duyệt chuỗi trong bài này.
  */

@@ -18,8 +18,7 @@ if (condition) {
   doSomethingElse();
 }
 
-if (condition) {
-  // BAD
+if (condition) { // BAD
   doSomething();
 } else if (anotherCondition) {
   doSomethingElse();

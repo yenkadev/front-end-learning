@@ -26,3 +26,5 @@
 
   isSecureUrlV2(url) Sử dụng startsWith()
  */
+
+  // startWith()
