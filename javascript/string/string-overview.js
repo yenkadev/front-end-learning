@@ -20,17 +20,17 @@
  * - Backticks for formatting string
  * - Escape '" back slash
  */
-const name = "Yen";
-const nameSingle = "Yen single"; // recommend
+const name = 'Yen';
+const nameSingle = 'Yen single'; // recommend
 const formatName = `My name is ${nameSingle}`;
 const nameWithSlash = "I'm a developer";
 
 /**
  * String is immutable
  */
-let name = "Yen Ka";
-name[0] = "S";
-console.log("name", name); // Yen Ka
+let name = 'Yen Ka';
+name[0] = 'S';
+console.log('name', name); // Yen Ka
 
 /**
  * Read more:

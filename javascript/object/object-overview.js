@@ -19,14 +19,14 @@
 
 const student = {
   id: 20056,
-  name: "Yen Ka",
-  position: "Developer",
+  name: 'Yen Ka',
+  position: 'Developer',
   age: 28,
-  'Key have space': "Special key",
+  'Key have space': 'Special key',
   sayHello() {
-    console.log("Hi");
-  }
-}
+    console.log('Hi');
+  },
+};
 
 /**
  * Lấy value của key
@@ -38,29 +38,29 @@ console.log(student.name);
 console.log(student.position);
 console.log(student.age);
 console.log(student['Key have space']);
-console.log("student.sayHello()", student.sayHello);
+console.log('student.sayHello()', student.sayHello);
 
 /**
  * Thêm key mới cho object
  */
 const student2 = {
   id: 20056,
-  name: "Yen Ka",
-  position: "Developer",
+  name: 'Yen Ka',
+  position: 'Developer',
   age: 28,
-  'Key have space': "Special key",
+  'Key have space': 'Special key',
   sayHello() {
-    console.log("Hi");
-  }
-}
+    console.log('Hi');
+  },
+};
 
 // Set new key
-const key = "avg mark";
+const key = 'avg mark';
 student2[key] = 10;
-console.log("student2", student2);
+console.log('student2', student2);
 
 // Update new key
-student2.name = "Dong Ka";
+student2.name = 'Dong Ka';
 
 /**
  * Xóa một key
@@ -68,19 +68,15 @@ student2.name = "Dong Ka";
  */
 const student3 = {
   id: 20056,
-  name: "Yen Ka",
-  position: "Developer",
+  name: 'Yen Ka',
+  position: 'Developer',
   age: 28,
-  'Key have space': "Special key",
+  'Key have space': 'Special key',
   sayHello() {
-    console.log("Hi");
-  }
-}
+    console.log('Hi');
+  },
+};
 
 delete student3.age;
-console.log("student3", student3);
-console.log("student3.age", student3.age); //undefined
-
-
-
-
+console.log('student3', student3);
+console.log('student3.age', student3.age); //undefined

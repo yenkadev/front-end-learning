@@ -3,8 +3,8 @@
  */
 
 // Instance properties
-const name = "Javascript course";
-console.log("name", name.length);
+const name = 'Javascript course';
+console.log('name', name.length);
 
 /**
  * Instance methods:
@@ -29,21 +29,21 @@ console.log("name", name.length);
  * - toLowerCase(): Chuyển đổi thành chữ viết thường
  * - toUpperCase(): Chuyển đổi thành chữ viết hoa
  */
-"Javascript course".charAt(0); // J
-const name1 = "Javascript course";
-console.log("name1", name1.charAt(name1.length - 1)); // e
-console.log("name", "Javascript course"[0]);
+'Javascript course'.charAt(0); // J
+const name1 = 'Javascript course';
+console.log('name1', name1.charAt(name1.length - 1)); // e
+console.log('name', 'Javascript course'[0]);
 
-"Javascript".concat(" ", "Course");
+'Javascript'.concat(' ', 'Course');
 
-"a".padStart(5, "*"); // ****5;
-"abc".padEnd(5, "*"); // abc**;
+'a'.padStart(5, '*'); // ****5;
+'abc'.padEnd(5, '*'); // abc**;
 
-"*".repeat(5); // *****
+'*'.repeat(5); // *****
 
-" Javascript Course ".trim(); // 'Javascript Course'
-" Javascript Course ".trimStart(); // 'Javascript Course '
-" Javascript Course ".trimEnd(); // ' Javascript Course
+' Javascript Course '.trim(); // 'Javascript Course'
+' Javascript Course '.trimStart(); // 'Javascript Course '
+' Javascript Course '.trimEnd(); // ' Javascript Course
 
 /**
  * Read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
