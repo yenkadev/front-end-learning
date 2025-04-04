@@ -33,6 +33,7 @@ const student = {
  * - Dùng dot operator để truy cập key của object
  * - Dùng square brackets để truy cập dynamic key của object, kể cả key có space
  */
+console.log(student['sayHello']); // object
 console.log(student.id);
 console.log(student.name);
 console.log(student.position);
@@ -53,6 +54,8 @@ const student2 = {
     console.log('Hi');
   },
 };
+
+console.log('student2', student2);
 
 // Set new key
 const key = 'avg mark';
