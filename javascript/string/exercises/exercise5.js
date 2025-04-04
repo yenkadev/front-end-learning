@@ -8,7 +8,7 @@
 
   extractDomain('alice@gmail.com')  --> 'gmail.com'
 
-  extractDomain('bob@abc.com') --> 'abc.com'
+  extractDomain('bobabc.com') --> 'abc.com'
 
   Viết hàm theo 2 hướng tiếp cận:
 
@@ -19,6 +19,8 @@
 
 function extractDomain(email) {
   const atIndex = email.indexOf("@");
+  console.log("atIndex", atIndex);
   if (atIndex === -1) return "";
   return email.slice(atIndex + 1);
 }
+console.log("extractDomain", extractDomain('bobabc.com@'))

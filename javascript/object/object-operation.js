@@ -49,3 +49,53 @@ const student4 = {
 console.log("'name' in student4", 'name' in student4);
 console.log("'age' in student4", 'age' in student4);
 console.log("'mark' in student4", 'mark' in student4)
+
+/**
+ * Clone object
+ */
+const student5 = {
+  name: "Js course",
+  age: 20,
+  mark: {
+    math: 10,
+    english: 8,
+    liter: 7
+  }
+}
+
+const moreProps = {
+  isGraduated: true,
+  gender: "male"
+}
+
+// w1
+const clonedStudent = Object.assign({}, student5, moreProps);
+console.log("clonedStudent", clonedStudent);
+
+// w2 spread operator
+const clonedStudent2 = {
+  ...student5,
+  ...moreProps
+}
+console.log("clonedStudent2", clonedStudent2);
+
+student5.mark.math = 9;
+console.log("student5.mark.math", student5.mark.math); // 9
+console.log("clonedStudent2.mark.math", clonedStudent2.mark.math); // 9
+
+clonedStudent2.mark.math = 8;
+console.log("student5.mark.math", student5.mark.math); // 9
+console.log("clonedStudent2.mark.math", clonedStudent2.mark.math); // 8
+
+// clone nested levels
+const clonedStudent3 = {
+  ...student5,
+  mark2: {
+    ...student5.mark
+  }
+}
+console.log("clonedStudent3", clonedStudent3);
+
+/**
+ * Read more: https://immerjs.github.io/immer/
+ */

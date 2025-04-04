@@ -23,14 +23,15 @@
   getFullName('john', 'pHAm') --> 'John Pham'
  */
 
+function capitalize(str) {
+  if (str) return "";
+  const trimmedStr = str.trim().toUpperCase();
+  return `${trimmedStr[0]}${trimmedStr.slice(1).toLowerCase()}`;
+}
+
 function getFullName(firstName, lastName) {
-  if (firstName === undefined) firstName = "";
-  if (lastName === undefined) lastName = "";
-  if (firstName.length > 0) {
-    firstName = firstName[0].toUpperCase() + firstName.slice(1).toLowerCase();
-  }
-  if (lastName.length > 0) {
-    lastName = lastName[0].toUpperCase() + lastName.slice(1).toLowerCase();
-  }
-  return (firstName + lastName).trim();
+  const firstName = capitalize(firstName);
+  const lastName = capitalize(lastName);
+  const fullName = `${ firstName } ${ lastName }`;
+  return fullName.trim();
 }
