@@ -18,3 +18,17 @@
 
   Giả sử kiểu dữ liệu của các thuộc tính của cả 2 objects đều là kiểu dữ liệu primitive.
   */
+
+function isEqual(obj1, obj2) {
+  if (Object.keys(obj1).length !== Object.keys(obj2).length) {
+    return false;
+  }
+
+  for (let key in obj1) {
+    if (obj1[key] !== obj2[key]) {
+      return false;
+    }
+  }
+
+  return true;
+}

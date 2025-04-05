@@ -18,3 +18,13 @@
 
   Dùng Array.from() createArrayInRangeV2(a, b)
  */
+
+function createArrayInRange(a, b) {
+  if (a < -100 || b > 100) return -1;
+
+  const result = [];
+  for (let i = a; i <= b; i++) {
+    result.push(i);
+  }
+  return result;
+}

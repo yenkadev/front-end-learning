@@ -18,3 +18,14 @@
 
   Sử dụng Array.from(), forEach() và sort(). Đồng thời chỉ lặp đến căn bậc 2 của n getDivisorListV3(n)
  */
+function getDivisorListV1(n) {
+  if (n < 1 || n > 1000) return -1;
+
+  const result = [];
+  for (let i = 1; i <= n; i++) {
+    if (n % i === 0) {
+      result.push(i);
+    }
+  }
+  return result;
+}

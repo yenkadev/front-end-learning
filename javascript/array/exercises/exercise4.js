@@ -12,3 +12,17 @@
 
   Gợi ý: không nhất thiết phải chạy tới (n - 1) để tìm ra tất cả các ước số của n
  */
+function isPerfectNumber(n) {
+  if (n < 1 || n > 1000) {
+    return -1;
+  }
+
+  let sum = 0;
+  for (let i = 1; i < n; i++) {
+    if (n % i === 0) {
+      sum = sum + i;
+    }
+  }
+
+  return sum === n;
+}
