@@ -68,9 +68,9 @@
 
 console.log('abc' > 'abd');
 
-'medium' != 'easy'; // true
-'medium size' > 'easy'; // true
-console.log("'medium size' > 'easy'", 'medium size' > 'easy');
+'medium' != 'js'; // true
+'medium size' > 'js'; // true
+console.log("'medium size' > 'js'", 'medium size' > 'js');
 
 /**
  * So sánh boolean

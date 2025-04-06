@@ -14,9 +14,9 @@
 
   isSecureUrl('http://abc.com') --> false vì bắt đầu bằng http, ko phải là https
 
-  isSecureUrl('https://ezfrontend.com') --> true
+  isSecureUrl('https://jsfrontend.com') --> true
 
-  isSecureUrl('wss://chat.ezfrontend.com') --> true
+  isSecureUrl('wss://chat.jsfrontend.com') --> true
 
   isSecureUrl('ws://chat.abc.com') --> false
 

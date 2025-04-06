@@ -14,7 +14,7 @@
  */
 function isPerfectNumber(n) {
   if (n < 1 || n > 1000) {
-    return -1;
+    return false;
   }
 
   let sum = 0;
@@ -26,3 +26,5 @@ function isPerfectNumber(n) {
 
   return sum === n;
 }
+
+console.log(isPerfectNumber(6));

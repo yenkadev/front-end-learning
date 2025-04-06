@@ -24,18 +24,19 @@
  */
 function isPrimeV1(n) {
   if (n < 0 || n > 1000) return -1;
-  if (n < 2) return false;
-  for (let i = 2; i < n; i++) {
-    if (n % i === 0) return false;
+  if (n < 2) return false; // So NT > 1
+  for (let i = 2; i < n; i++) { // 2 3
+    if (n % i === 0) return false; // So NT chia het cho 1 va chinh no
   }
-  return true;
+  // 3 / 2 = 1.5
+  return true; // 2 3
 }
 
 function isPrimeV2(n) {
   if (n < 0 || n > 1000) return -1;
   if (n < 2) return false;
-  for (let i = 2; i <= Math.sqrt(n); i++) {
+  for (let i = 2; i <= Math.sqrt(n); i++) { // 2 4
     if (n % i === 0) return false;
   }
-  return true;
+  return true; // 2 // 3
 }

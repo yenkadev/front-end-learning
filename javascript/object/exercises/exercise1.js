@@ -13,3 +13,17 @@
 
   Lưu ý: Không sử dụng Object.assign() và spread operator
  */
+
+const studentA = { name: 'Bob', math: 9 };
+
+function cloneObject(obj) {
+  const cloneObj = {};
+
+  for (let key in obj) {
+    cloneObj[key] = obj[key];
+  }
+  
+  return cloneObj;
+}
+
+console.log(cloneObject(studentA));

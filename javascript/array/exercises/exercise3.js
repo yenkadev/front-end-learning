@@ -19,7 +19,7 @@
   Sử dụng Array.from(), forEach() và sort(). Đồng thời chỉ lặp đến căn bậc 2 của n getDivisorListV3(n)
  */
 function getDivisorListV1(n) {
-  if (n < 1 || n > 1000) return -1;
+  if (n < 1 || n > 1000) return [];
 
   const result = [];
   for (let i = 1; i <= n; i++) {
@@ -29,3 +29,9 @@ function getDivisorListV1(n) {
   }
   return result;
 }
+
+function getDivisorListV2(n) {
+  if (n < 1 || n > 1000) return [];
+  return Array.from({ length: n }, (item, index) => (index + 1)).filter((item) => n % item === 0);
+}
+console.log(getDivisorListV2(10));
