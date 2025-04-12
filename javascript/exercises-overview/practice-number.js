@@ -14,3 +14,24 @@
   isIncreasingNumber(123) --> true
   isIncreasingNumber(12321) --> false
  */
+
+// function sum(n) {
+//   if (n <= 0) return 0;
+//   let total = 0;
+//   for (let i = 1; i <= n; i++) {
+//     total += i;
+//   }
+//   return total;
+// }
+
+function isIncreasingNumber(n) {
+  if (n <= 0 || n >= 1000000) return false;
+
+  const str = String(n);
+  for (let i = 0; i < str.length - 1; i++) {
+    if (str[i] >= str[i + 1]) {
+      return false;
+    }
+  }
+  return true;
+}

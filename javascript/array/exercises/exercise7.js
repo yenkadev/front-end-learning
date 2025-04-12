@@ -24,3 +24,29 @@
 
   isAllPerfectNumbersV3(numberList) Sử dụng every()
  */
+
+function isPerfectNumber(num) {
+  let sum = 0;
+  for (let i = 1; i < num; i++) {
+    if (num % i === 0) {
+      sum = sum + i;
+    }
+  }
+
+  return sum === num;
+}
+
+function isAllPerfectNumbersV1(numberList) {
+  if (!Array.isArray(numberList) || numberList.length === 0) return false;
+  for (let i = 0; i < numberList.length; i++) {
+    if (!isPerfectNumber(numberList[i])) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function isAllPerfectNumbersV3(numberList) {
+  if (!Array.isArray(numberList) || numberList.length === 0) return false;
+  return numberList.every(isPerfectNumber);
+}

@@ -6,3 +6,17 @@
   countUniqueNumbers([1, 2, 3]); // 3
   countUniqueNumbers([1, 2, 2, 3, 1]); // 3
  */
+
+function countUniqueNumbers(numberList) {
+  if (!Array.isArray(numberList) || numberList.length === 0) return 0;
+
+  const unique = [];
+
+  for (let i = 0; i < numberList.length; i++) {
+    if (!unique.includes(numberList[i])) {
+      unique.push(numberList[i]);
+    }
+  }
+
+  return unique.length;
+}

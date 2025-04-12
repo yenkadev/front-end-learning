@@ -13,3 +13,9 @@
 
   countWords('   js     frontend     ') --> 2 (lưu ý câu này có nhiều khoảng trắng thừa)
  */
+
+function countWords(str) {
+  if (typeof str !== 'string' || str.length === 0) return 0;
+  const words = str.trim().split(/\s+/); // Split by whitespace and remove extra spaces
+  return words.filter((word) => /[a-zA-Z]/.test(word)).length; // Filter words that contain at least one letter
+}

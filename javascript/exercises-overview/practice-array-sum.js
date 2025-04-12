@@ -7,3 +7,13 @@
   ];
   calcCartTotal(cartItemList); // 250000 = 50 x 1 + 100000 x 2
  */
+
+function calcCartTotal(cartItemList) {
+  if (!Array.isArray(cartItemList) || cartItemList.length === 0) return 0;
+
+  return cartItemList.reduce((total, item) => {
+    const { price } = item.product;
+    const { quantity } = item;
+    return total + price * quantity;
+  }, 0);
+}

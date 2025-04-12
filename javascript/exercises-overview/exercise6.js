@@ -20,3 +20,17 @@
 
   mergeArray([1, 2, 3], [2, 3, 4]) --> [1, 2, 3, 4] vì 2, 3 trùng nhau nên khi gộp mảng chỉ giữ lại một số
  */
+
+function mergeArray(a, b) {
+  if (!Array.isArray(a) || !Array.isArray(b)) return [];
+
+  const result = [];
+
+  [...a, ...b].forEach((num) => {
+    if (!result.includes(num)) {
+      result.push(num);
+    }
+  });
+
+  return result;
+}

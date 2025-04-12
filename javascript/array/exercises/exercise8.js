@@ -18,3 +18,18 @@
 
   calcAvgOfAllEvenNumbers([1, 2, 4, 8]) --> 5 vì có 3 số chẳn 2 + 4 + 8 = 14, trung bình cộng lấy 14 / 3 = 4.6(6), làm tròn thành 5
  */
+
+function calcAvgOfAllEvenNumbers(numberList) {
+  if (!Array.isArray(numberList) || numberList.length === 0) return 0;
+  let sum = 0;
+  let count = 0;
+  for (let i = 0; i < numberList.length; i++) {
+    if (numberList[i] % 2 === 0) {
+      sum += numberList[i];
+      count++;
+    }
+  }
+
+  if (count === 0) return 0;
+  return Math.round(sum / count);
+}

@@ -9,3 +9,20 @@
   // should return an object like this:
   // { learn: 1, javascript: 1 }
  */
+function statisticsWords(str) {
+  if (typeof str !== 'string' || str.length === 0) return {};
+
+  const words = str.split(' ');
+  const result = {};
+
+  for (let i = 0; i < words.length; i++) {
+    const word = words[i];
+    if (result[word]) {
+      result[word]++;
+    } else {
+      result[word] = 1;
+    }
+  }
+
+  return result;
+}
