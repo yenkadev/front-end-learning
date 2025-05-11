@@ -56,7 +56,7 @@ async function main() {
   - default pad character is space
  */
 "1234".padStart(8);
-"1234".padStart(8, "*");
+"1234".padStart(8, "*"); 
 "123456".padStart(8, "*");
 "1234".padEnd(8, "*");
 "12".padEnd(8, "*");
@@ -69,6 +69,7 @@ Object.values({
   name: "Js course",
   age: 18,
 });
+// [1, "Js course", 18]
 
 /**
  * 5. Object.entries()
@@ -78,6 +79,7 @@ Object.entries({
   name: "Js course",
   age: 18,
 });
+// [[id, 1], [name, "Js course"], [age, 18]]
 
 /**
  * 6. Object.getOwnPropertyDescriptors()
@@ -88,8 +90,9 @@ Object.entries({
  * 7. Trailing commas in function parameter lists and calls
  */
 // Trailing commas in Array
-[1, 2, 3].length;
-[1, 2, 3, ,].length;
+[1, 2, 3].length; // 3
+// Trailing commas in Array (from ECMAScript 5)
+[1, 2, 3, ,].length; // 4
 const numberList = [1, 2, 3];
 console.log(numberList);
 
@@ -98,6 +101,7 @@ const student = {
   id: 1,
   name: "Js course",
   age: 18, // <-- trailing comma
+  hobbies: ["music", "coding"],
 };
 
 // Trailing commas in functions (from ECMAScript 2017)

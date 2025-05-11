@@ -13,8 +13,7 @@
  */
 const timeoutId = setTimeout(callback, timeout);
 // callback is the function will be executed once the timer is expired
-// timeout is the time in milliseconds, default to 0. 1 second = 1000
-milliseconds;
+// timeout is the time in milliseconds, default to 0. 1 second = 1000 milliseconds;
 // timeoutId is a positive integer, used to identify a timeout
 // and clear it by using clearTimeout(timeoutId)
 
@@ -33,14 +32,52 @@ setTimeout(() => {
 setTimeout(() => {
   console.log("Hi");
 }, 0);
-setTimeout(() => {
-  console.log("Hi");
-});
+
 console.log("log 1");
+
 setTimeout(() => {
   console.log("log 2");
 });
+
 console.log("log 3");
+
+/**
+ * Call stack:
+ * 1. setTimeout(() => {
+  console.log("Hi");
+}, 0);
+  * 2. console.log("log 1");
+  * 3. setTimeout(() => {
+  console.log("log 2");
+  4. console.log("log 3");
+});
+ */
+
+/**
+ * WebApi
+ * 1. () => {
+    console.log("Hi");
+  }
+  2. () => {
+  console.log("log 2");
+}
+ */
+
+  /**
+   * Callback queue
+   * 1. () => {
+    console.log("Hi");
+    }
+      () => {
+    console.log("log 2");
+  }
+   */
+
+// Result:
+// log 1
+// log 3
+// Hi
+// log 2
 
 /**
  * 2. clearTimeout

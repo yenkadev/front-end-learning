@@ -19,3 +19,19 @@ debounceLog();
 /**
  * 3. Simple implementation
  */
+function log() {
+  console.log("log");
+}
+function debounce(callback, wait) {
+  let timeoutId;
+  return function (...args) {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+    timeoutId = setTimeout(callback, wait);
+  };
+}
+
+debounce(log, 5000);
+debounce(log, 5000);
+debounce(log, 5000);

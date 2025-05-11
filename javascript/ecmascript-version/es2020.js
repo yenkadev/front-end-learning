@@ -53,12 +53,12 @@ const value = x ?? y;
 // - return y if x is nullish (null or undefined)
 // - otherwise return x
 
-null ?? "Javascript learning";
-undefined ?? "Javascript learning";
-"" ?? "Javascript learning";
-0 ?? "Javascript learning";
-Number.NaN ?? "Javascript learning";
-false ?? "Javascript learning";
+null ?? "Javascript learning"; // "Javascript learning"
+undefined ?? "Javascript learning"; // "Javascript learning"
+"" ?? "Javascript learning"; // ""
+0 ?? "Javascript learning"; // 0  
+Number.NaN ?? "Javascript learning"; // NaN
+false ?? "Javascript learning"; // false
 
 null || "Javascript learning";
 undefined || "Javascript learning";

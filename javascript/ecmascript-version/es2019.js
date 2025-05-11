@@ -22,15 +22,18 @@
  * 1. Array.prototype.{flat, flatMap}
  */
 // - arr.flat(depth) - default depth is 1
-[1, 2, [3, 4]].flat(0);
-[1, 2, [3, 4]].flat(1);
-[1, 2, [[3], 4]].flat(1);
-[1, 2, [[3], 4]].flat(2);
-[1, 2, , 4, 5].flat();
+[1, 2, [3, 4]].flat(0); // [1, 2, [3, 4]]
+[1, 2, [3, 4]].flat(1); // [1, 2, 3, 4]
+[1, 2, [3, 4]].flat(2); // [1, 2, 3, 4]
+[1, 2, [[3], 4]].flat(0); // [1, 2, [[3], 4]]
+[1, 2, [[3], 4]].flat(1); // [1, 2, [3], 4]
+[1, 2, [[3], 4]].flat(2); // [1, 2, 3, 4]
+[1, 2, [[3], 4]].flat(3); // [1, 2, 3, 4]
+[1, 2, , 4, 5].flat(); // [1, 2, 4, 5]
 
 // - arr.flatMap(mapFn) - similar to the call map() first, then flat(1). But slightly more efficient
-[5, 20].map((x) => [x, x * 2]).flat(1);
-[5, 20].flatMap((x) => [x, x * 2]);
+[5, 20].map((x) => [x, x * 2]).flat(1); // [5, 10, 20, 40]
+[5, 20].flatMap((x) => [x, x * 2]); // [5, 10, 20, 40]
 
 /**
  * 2. Object.fromEntries
@@ -42,9 +45,10 @@ const student = {
 };
 
 // ES2017
-const entries = Object.entries(student);
+const entries = Object.entries(student); // [['id', 1], ['name', 'Javascript learning']]
+
 // ES2019
-Object.fromEntries(entries);
+Object.fromEntries(entries); // { id: 1, name: 'Javascript learning' }
 
 /**
  * 3. String.prototype.{trimStart, trimEnd}
