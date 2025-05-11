@@ -88,37 +88,37 @@ Object.entries({
  * 7. Trailing commas in function parameter lists and calls
  */
 // Trailing commas in Array
-[1, 2, 3,].length;
-[1, 2, 3,,].length;
-const numberList = [1, 2, 3,];
+[1, 2, 3].length;
+[1, 2, 3, ,].length;
+const numberList = [1, 2, 3];
 console.log(numberList);
 
 // Trailing commas in object (from ECMAScript 5)
 const student = {
- id: 1,
- name: 'Js course',
- age: 18, // <-- trailing comma
-}
+  id: 1,
+  name: "Js course",
+  age: 18, // <-- trailing comma
+};
 
 // Trailing commas in functions (from ECMAScript 2017)
 // function declaration
 function createStudent({
- id,
- name,
- age,
- hobbies,
- isHero, // trailing comma
+  id,
+  name,
+  age,
+  hobbies,
+  isHero, // trailing comma
 }) {
- console.log(id, name, age, hobbies, isHero);
+  console.log(id, name, age, hobbies, isHero);
 }
 // function call
 createStudent({
- id: 1,
- name: 'Javascript course',
- age: 18,
- hobbies: ['music', 'coding'],
- isHero: false, // trailing comma
-})
+  id: 1,
+  name: "Javascript course",
+  age: 18,
+  hobbies: ["music", "coding"],
+  isHero: false, // trailing comma
+});
 
 /**
  * Read more:
