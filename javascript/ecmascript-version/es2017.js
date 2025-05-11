@@ -114,7 +114,7 @@ function createStudent({
 // function call
 createStudent({
  id: 1,
- name: 'Easy Frontend',
+ name: 'Javascript course',
  age: 18,
  hobbies: ['music', 'coding'],
  isHero: false, // trailing comma

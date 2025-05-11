@@ -30,7 +30,7 @@ const mergedList = [...numberList1, ...numberList2, 7, 8, 9];
 // ES2018 / Rest properties
 const student = {
   id: 1,
-  name: "Easy Frontend",
+  name: "Javascript course",
   isHero: false,
 };
 const { id, ...rest2 } = student;
